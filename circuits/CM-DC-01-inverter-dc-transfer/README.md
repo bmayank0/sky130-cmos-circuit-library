@@ -8,28 +8,30 @@ This is the most fundamental CMOS circuit — a single inverter with NMOS and PM
 
 ## Sizing
 
-|Device|W (µm)|L (µm)|
-|-|-:|-:|
-|NMOS|0.42|0.15|
-|PMOS|0.84|0.15|
+| Device | W (µm) | L (µm) |
+|:-------|-------:|-------:|
+| NMOS   |   0.42 |   0.15 |
+| PMOS   |   0.84 |   0.15 |
 
 PMOS is sized at 2× the NMOS width. Since hole mobility is roughly half that of electrons, doubling the PMOS width brings the drive strengths into balance and centers VM near VDD/2.
 
 ## Test Setup
 
-* Vin swept DC from 0 → 1.8V in 10mV steps
-* Vout recorded at each Vin step
-* VM, NML, NMH, and gain at VM extracted from the resulting curve
-* Simulated on sky130A PDK, Typical corner, T = 27°C
+- Vin swept DC from 0 → 1.8V in 10mV steps
+- Vout recorded at each Vin step
+- VM, NML, NMH, and gain at VM extracted from the resulting curve
+- Simulated on sky130A PDK, Typical corner, T = 27°C
 
 ## Results
 
-|Metric|Target|Result|
-|-|-|-|
-|VM|0.9 ± 0.1V|✅ Pass|
-|NML|> 0.35V|✅ Pass|
-|NMH|> 0.35V|✅ Pass|
-|Gain at VM|> −10 V/V|✅ Pass|
+![VTC Curve](results/voltage_transfer_curve.png)
+
+| Metric     | Target      | Result  |
+|:-----------|:------------|:--------|
+| VM         | 0.9 ± 0.1V  | ✅ Pass |
+| NML        | > 0.35V     | ✅ Pass |
+| NMH        | > 0.35V     | ✅ Pass |
+| Gain at VM | > −10 V/V   | ✅ Pass |
 
 ## Key Insight
 
@@ -37,11 +39,8 @@ The curve shows a sharp transition centered near 0.9V, confirming that the 2× P
 
 ## Files
 
-|File|Description|
-|-|-|
-|`schematic.png`|Circuit schematic|
-|`schematic\_raw.json`|CircuitPro schematic export|
-|`results/voltage\_transfer\_curve.png`|VTC simulation result|
-
-
-
+| File                              | Description                        |
+|:----------------------------------|:-----------------------------------|
+| `schematic.png`                   | Circuit schematic                  |
+| `schematic_raw.json`              | CircuitPro schematic export        |
+| `results/voltage_transfer_curve.png` | VTC simulation result           |
