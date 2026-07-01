@@ -1,0 +1,1455 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-07-01T13:06:48.199Z",
+  "slides": [
+    {
+      "id": "4dcb2c6d-f33a-4520-935d-9dcf72bd2175",
+      "nodes": [
+        {
+          "id": "node_1_1780560817791",
+          "type": "customNode",
+          "position": {
+            "x": 211.33641560872397,
+            "y": 75.77314249674481
+          },
+          "data": {
+            "type": "p_mos",
+            "label": "mp1",
+            "portWidth": 1,
+            "mosfetParams": {
+              "W": "8",
+              "L": "0.35"
+            }
+          },
+          "style": {
+            "width": 60,
+            "height": 85
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 85,
+          "selected": false,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": 211.33641560872397,
+            "y": 75.77314249674481
+          }
+        },
+        {
+          "id": "node_2_1780560818368",
+          "type": "customNode",
+          "position": {
+            "x": 333.3364156087239,
+            "y": 75.77314249674478
+          },
+          "data": {
+            "type": "p_mos",
+            "label": "mp2",
+            "portWidth": 1,
+            "mosfetParams": {
+              "W": "8",
+              "L": "0.35"
+            }
+          },
+          "style": {
+            "width": 60,
+            "height": 85
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 85,
+          "selected": false,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": 333.3364156087239,
+            "y": 75.77314249674478
+          }
+        },
+        {
+          "id": "node_3_1780560853063",
+          "type": "customNode",
+          "position": {
+            "x": 160.33641560872394,
+            "y": 113.27314249674481
+          },
+          "data": {
+            "type": "input",
+            "label": "in+",
+            "portWidth": 1
+          },
+          "style": {
+            "width": 10,
+            "height": 10
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 10,
+          "height": 10,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 160.33641560872394,
+            "y": 113.27314249674481
+          },
+          "dragging": false
+        },
+        {
+          "id": "node_4_1780560854487",
+          "type": "customNode",
+          "position": {
+            "x": 297.00308227539057,
+            "y": 113.27314249674478
+          },
+          "data": {
+            "type": "input",
+            "label": "in-",
+            "portWidth": 1
+          },
+          "style": {
+            "width": 10,
+            "height": 10
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 10,
+          "height": 10,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 297.00308227539057,
+            "y": 113.27314249674478
+          },
+          "dragging": false
+        },
+        {
+          "id": "node_5_1780560883383",
+          "type": "customNode",
+          "position": {
+            "x": 211.33641560872397,
+            "y": 195.10647583007812
+          },
+          "data": {
+            "type": "n_mos",
+            "label": "mn1",
+            "portWidth": 1,
+            "mosfetParams": {
+              "W": "4",
+              "L": "0.35"
+            }
+          },
+          "style": {
+            "width": 60,
+            "height": 85
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 85,
+          "selected": false,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": 211.33641560872397,
+            "y": 195.10647583007812
+          }
+        },
+        {
+          "id": "node_6_1780560885669",
+          "type": "customNode",
+          "position": {
+            "x": 333.33641560872394,
+            "y": 191.77314249674478
+          },
+          "data": {
+            "type": "n_mos",
+            "label": "mn2",
+            "portWidth": 1,
+            "mosfetParams": {
+              "W": "4",
+              "L": "0.35"
+            }
+          },
+          "style": {
+            "width": 60,
+            "height": 85
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 85,
+          "selected": false,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": 333.33641560872394,
+            "y": 191.77314249674478
+          }
+        },
+        {
+          "id": "node_7_1780560934270",
+          "type": "junctionNode",
+          "position": {
+            "x": 262.420888264974,
+            "y": 176.2731321483936
+          },
+          "data": {
+            "color": "#000000",
+            "label": "Node X",
+            "isJunction": true,
+            "wireAxis": "vertical",
+            "edgeId": "edge_4_1780560903351",
+            "wireT": 0.49135784234860397
+          },
+          "draggable": false,
+          "selectable": true,
+          "style": {
+            "width": 4,
+            "height": 4,
+            "padding": 0,
+            "margin": 0,
+            "background": "transparent",
+            "border": "none"
+          },
+          "width": 4,
+          "height": 4,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 262.420888264974,
+            "y": 176.2731321483936
+          }
+        },
+        {
+          "id": "node_8_1780560945479",
+          "type": "customNode",
+          "position": {
+            "x": 313.6697489420573,
+            "y": 309.93980916341144
+          },
+          "data": {
+            "type": "ground",
+            "label": "GND",
+            "portWidth": 1
+          },
+          "style": {
+            "width": 10,
+            "height": 10
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 10,
+          "height": 10,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 313.6697489420573,
+            "y": 309.93980916341144
+          }
+        },
+        {
+          "id": "node_9_1780561088245",
+          "type": "customNode",
+          "position": {
+            "x": 391.7395263400665,
+            "y": 75.37611959149234
+          },
+          "data": {
+            "type": "textbox",
+            "label": "textbox",
+            "textboxContent": "PMOS Differential Pair"
+          },
+          "style": {
+            "width": 110,
+            "height": 40
+          },
+          "width": 110,
+          "height": 40,
+          "selected": false,
+          "dragging": false,
+          "resizing": false,
+          "positionAbsolute": {
+            "x": 391.7395263400665,
+            "y": 75.37611959149234
+          }
+        },
+        {
+          "id": "node_10_1780561123469",
+          "type": "customNode",
+          "position": {
+            "x": 399.33641560872394,
+            "y": 216.27314249674475
+          },
+          "data": {
+            "type": "textbox",
+            "label": "textbox",
+            "textboxContent": "NMOS Current Mirror Active Load"
+          },
+          "style": {
+            "width": 109,
+            "height": 38
+          },
+          "width": 109,
+          "height": 38,
+          "selected": false,
+          "dragging": false,
+          "resizing": false,
+          "positionAbsolute": {
+            "x": 399.33641560872394,
+            "y": 216.27314249674475
+          }
+        },
+        {
+          "id": "node_13_1780561494060",
+          "type": "customNode",
+          "position": {
+            "x": 268.0030822753906,
+            "y": -36.7978816091545
+          },
+          "data": {
+            "type": "p_mos",
+            "label": "mp3",
+            "portWidth": 1,
+            "mosfetParams": {
+              "W": "8",
+              "L": "1"
+            }
+          },
+          "style": {
+            "width": 60,
+            "height": 85
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 85,
+          "selected": false,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": 268.0030822753906,
+            "y": -36.7978816091545
+          }
+        },
+        {
+          "id": "node_18_1780561610619",
+          "type": "customNode",
+          "position": {
+            "x": 333.70297596343806,
+            "y": -12.428642662081273
+          },
+          "data": {
+            "type": "textbox",
+            "label": "textbox",
+            "textboxContent": "Tail Current Source for PMOS Pair"
+          },
+          "style": {
+            "width": 106,
+            "height": 35
+          },
+          "width": 106,
+          "height": 35,
+          "selected": false,
+          "dragging": false,
+          "resizing": false,
+          "positionAbsolute": {
+            "x": 333.70297596343806,
+            "y": -12.428642662081273
+          }
+        },
+        {
+          "id": "node_19_1780561632860",
+          "type": "customNode",
+          "position": {
+            "x": 506.66974894205725,
+            "y": 135.2021183908455
+          },
+          "data": {
+            "type": "n_mos",
+            "label": "mn3",
+            "portWidth": 1,
+            "mosfetParams": {
+              "W": "16",
+              "L": "0.35"
+            }
+          },
+          "style": {
+            "width": 60,
+            "height": 85
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 85,
+          "selected": false,
+          "dragging": false,
+          "positionAbsolute": {
+            "x": 506.66974894205725,
+            "y": 135.2021183908455
+          }
+        },
+        {
+          "id": "node_21_1780561724714",
+          "type": "customNode",
+          "position": {
+            "x": 570.0030822753906,
+            "y": 162.3687850575122
+          },
+          "data": {
+            "type": "textbox",
+            "label": "textbox",
+            "textboxContent": "This transistor provides the second gain stage."
+          },
+          "style": {
+            "width": 107,
+            "height": 52
+          },
+          "width": 107,
+          "height": 52,
+          "selected": false,
+          "dragging": false,
+          "resizing": false,
+          "positionAbsolute": {
+            "x": 570.0030822753906,
+            "y": 162.3687850575122
+          }
+        },
+        {
+          "id": "node_22_1780561750891",
+          "type": "customNode",
+          "position": {
+            "x": 506.66974894205725,
+            "y": -19.464548275821187
+          },
+          "data": {
+            "type": "p_mos",
+            "label": "mp4",
+            "portWidth": 1,
+            "mosfetParams": {
+              "W": "8",
+              "L": "1"
+            }
+          },
+          "style": {
+            "width": 60,
+            "height": 85
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 85,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 506.66974894205725,
+            "y": -19.464548275821187
+          },
+          "dragging": false
+        },
+        {
+          "id": "node_23_1780561765315",
+          "type": "customNode",
+          "position": {
+            "x": 555.0030822753906,
+            "y": -132.9930625224256
+          },
+          "data": {
+            "type": "power",
+            "label": "VDD",
+            "portWidth": 1
+          },
+          "style": {
+            "width": 10,
+            "height": 10
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 10,
+          "height": 10,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 555.0030822753906,
+            "y": -132.9930625224256
+          },
+          "dragging": false
+        },
+        {
+          "id": "node_24_1780561845265",
+          "type": "customNode",
+          "position": {
+            "x": 572.6697489420574,
+            "y": -4.223825619571187
+          },
+          "data": {
+            "type": "textbox",
+            "label": "textbox",
+            "textboxContent": "PMOS Current Source Load of Second Stage"
+          },
+          "style": {
+            "width": 126,
+            "height": 42
+          },
+          "width": 126,
+          "height": 42,
+          "selected": false,
+          "dragging": false,
+          "resizing": false,
+          "positionAbsolute": {
+            "x": 572.6697489420574,
+            "y": -4.223825619571187
+          }
+        },
+        {
+          "id": "node_26_1780561997744",
+          "type": "junctionNode",
+          "position": {
+            "x": 718.6697489420573,
+            "y": 99.10951784820642
+          },
+          "data": {
+            "color": "#000000",
+            "label": "",
+            "isJunction": true,
+            "wireAxis": "vertical",
+            "edgeId": "edge_20_1780561887243",
+            "wireT": 0.5018717959725167
+          },
+          "draggable": false,
+          "selectable": true,
+          "style": {
+            "width": 4,
+            "height": 4,
+            "padding": 0,
+            "margin": 0,
+            "background": "transparent",
+            "border": "none"
+          },
+          "width": 4,
+          "height": 4,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 718.6697489420573,
+            "y": 99.10951784820642
+          }
+        },
+        {
+          "id": "node_27_1780562067266",
+          "type": "customNode",
+          "position": {
+            "x": 769.0030822753906,
+            "y": 117.77617438042881
+          },
+          "data": {
+            "type": "capacitor",
+            "label": "capacitor_1",
+            "portWidth": 1
+          },
+          "style": {
+            "width": 30,
+            "height": 60
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 30,
+          "height": 60,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 769.0030822753906,
+            "y": 117.77617438042881
+          },
+          "dragging": false
+        },
+        {
+          "id": "node_29_1780562087082",
+          "type": "customNode",
+          "position": {
+            "x": 843.6697489420573,
+            "y": 96.10950771376216
+          },
+          "data": {
+            "type": "output",
+            "label": "out",
+            "portWidth": 1
+          },
+          "style": {
+            "width": 10,
+            "height": 10
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 10,
+          "height": 10,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 843.6697489420573,
+            "y": 96.10950771376216
+          },
+          "dragging": false
+        },
+        {
+          "id": "node_30_1780562101051",
+          "type": "junctionNode",
+          "position": {
+            "x": 782.0030703635865,
+            "y": 99.10432101177504
+          },
+          "data": {
+            "color": "#000000",
+            "label": "",
+            "isJunction": true,
+            "wireAxis": "horizontal",
+            "edgeId": "edge_24_1780562090689",
+            "wireT": 0.486082292683198
+          },
+          "draggable": false,
+          "selectable": true,
+          "style": {
+            "width": 4,
+            "height": 4,
+            "padding": 0,
+            "margin": 0,
+            "background": "transparent",
+            "border": "none"
+          },
+          "width": 4,
+          "height": 4,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 782.0030703635865,
+            "y": 99.10432101177504
+          }
+        },
+        {
+          "id": "node_3_1780569661180",
+          "type": "customNode",
+          "position": {
+            "x": 593.3908395784499,
+            "y": 106.19829484666053
+          },
+          "data": {
+            "type": "capacitor",
+            "label": "capacitor_0",
+            "portWidth": 1,
+            "capacitorParams": {
+              "C": "1p"
+            },
+            "rotation": 270
+          },
+          "style": {
+            "width": 60,
+            "height": 30
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 60,
+          "height": 30,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 593.3908395784499,
+            "y": 106.19829484666053
+          },
+          "dragging": false
+        },
+        {
+          "id": "node_2_1782561669905",
+          "type": "junctionNode",
+          "position": {
+            "x": 324.4581830123128,
+            "y": 75.89122517903647
+          },
+          "data": {
+            "color": "#000000",
+            "label": "",
+            "isJunction": true,
+            "wireAxis": "horizontal",
+            "edgeId": "edge_5_1782561667652",
+            "wireT": 0.5085022463633565
+          },
+          "draggable": true,
+          "selectable": true,
+          "style": {
+            "width": 4,
+            "height": 4,
+            "padding": 0,
+            "margin": 0,
+            "background": "transparent",
+            "border": "none"
+          },
+          "width": 4,
+          "height": 4,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 324.4581830123128,
+            "y": 75.89122517903647
+          }
+        },
+        {
+          "id": "node_3_1782561758310",
+          "type": "customNode",
+          "position": {
+            "x": 169.70117927088447,
+            "y": -35.28644201484404
+          },
+          "data": {
+            "type": "input",
+            "label": "Vbias",
+            "portWidth": 1
+          },
+          "style": {
+            "width": 10,
+            "height": 10
+          },
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 10,
+          "height": 10,
+          "positionAbsolute": {
+            "x": 169.70117927088447,
+            "y": -35.28644201484404
+          },
+          "selected": false
+        },
+        {
+          "id": "node_4_1782561760169",
+          "type": "junctionNode",
+          "position": {
+            "x": 246.00308227539062,
+            "y": -45.005889172380996
+          },
+          "data": {
+            "color": "#000000",
+            "label": "",
+            "isJunction": true,
+            "wireAxis": "vertical",
+            "edgeId": "edge_7_1782561688795",
+            "wireT": 0.16103322526233402
+          },
+          "draggable": true,
+          "selectable": true,
+          "style": {
+            "width": 4,
+            "height": 4,
+            "padding": 0,
+            "margin": 0,
+            "background": "transparent",
+            "border": "none"
+          },
+          "width": 4,
+          "height": 4,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 246.00308227539062,
+            "y": -45.51953860277985
+          }
+        }
+      ],
+      "edges": [
+        {
+          "source": "node_4_1780560854487",
+          "sourceHandle": "input_port",
+          "target": "node_2_1780560818368",
+          "targetHandle": "Gate_target",
+          "id": "edge_2_1780560859951",
+          "type": "customEdge",
+          "data": {
+            "label": "in-",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 323.53665161132807,
+                "y": 117.60069783528645
+              },
+              {
+                "x": 323.53665161132807,
+                "y": 118.26736450195312
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_1_1780560817791",
+          "sourceHandle": "Gate_source",
+          "target": "node_3_1780560853063",
+          "targetHandle": "input_port_target",
+          "id": "edge_3_1780560862583",
+          "type": "customEdge",
+          "data": {
+            "label": "in+",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 194.53664143880206,
+                "y": 118.26736450195312
+              },
+              {
+                "x": 194.53664143880206,
+                "y": 119.60069783528645
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_5_1780560883383",
+          "sourceHandle": "Drain_source",
+          "target": "node_1_1780560817791",
+          "targetHandle": "Drain_target",
+          "id": "edge_4_1780560903351",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_1",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 264.420888264974,
+                "y": 177.9398193359375
+              },
+              {
+                "x": 264.420888264974,
+                "y": 177.9398193359375
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "id": "edge_6_1780560934270",
+          "source": "node_5_1780560883383",
+          "sourceHandle": "Gate_source",
+          "target": "node_7_1780560934270",
+          "targetHandle": "left_target",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_1",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 200.66974894205728,
+                "y": 237.60069783528647
+              },
+              {
+                "x": 200.66974894205728,
+                "y": 178.26852416992188
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_5_1780560883383",
+          "sourceHandle": "Source_source",
+          "target": "node_8_1780560945479",
+          "targetHandle": "ground_target",
+          "id": "edge_7_1780560948687",
+          "type": "customEdge",
+          "data": {
+            "label": "GND",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 264.420888264974,
+                "y": 296.9675801595052
+              },
+              {
+                "x": 318.6639709472656,
+                "y": 296.9675801595052
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_6_1780560885669",
+          "sourceHandle": "Source_source",
+          "target": "node_8_1780560945479",
+          "targetHandle": "ground_target",
+          "id": "edge_8_1780560951582",
+          "type": "customEdge",
+          "data": {
+            "label": "GND",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 386.4209289550781,
+                "y": 295.3009033203125
+              },
+              {
+                "x": 318.6639709472656,
+                "y": 295.3009033203125
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_6_1780560885669",
+          "sourceHandle": "Gate_source",
+          "target": "node_7_1780560934270",
+          "targetHandle": "left_target",
+          "id": "edge_10_1780561046223",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_1",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 301.5707804361979,
+                "y": 234.26736450195312
+              },
+              {
+                "x": 301.5707804361979,
+                "y": 178.26861554683111
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_22_1780561750891",
+          "sourceHandle": "Source_source",
+          "target": "node_23_1780561765315",
+          "targetHandle": "power_target",
+          "id": "edge_18_1780561769346",
+          "type": "customEdge",
+          "data": {
+            "label": "VDD",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 559.7542622884114,
+                "y": -28.652048275821173
+              },
+              {
+                "x": 559.1997951807972,
+                "y": -28.652048275821173
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_26_1780561997744",
+          "sourceHandle": "left_source",
+          "target": "node_29_1780562087082",
+          "targetHandle": "output_port",
+          "id": "edge_24_1780562090689",
+          "type": "customEdge",
+          "data": {
+            "label": "out",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 785.8167215983073,
+                "y": 101.10486904188718
+              },
+              {
+                "x": 785.8167215983073,
+                "y": 101.77037604058506
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "id": "edge_25_1780562101051",
+          "source": "node_27_1780562067266",
+          "sourceHandle": "T1_source",
+          "target": "node_30_1780562101051",
+          "targetHandle": "left_target",
+          "type": "customEdge",
+          "data": {
+            "label": "out",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 784.6639709472657,
+                "y": 110.63584736738069
+              },
+              {
+                "x": 783.9938337099406,
+                "y": 110.63584736738069
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_3_1780569661180",
+          "sourceHandle": "T2_source",
+          "target": "node_26_1780561997744",
+          "targetHandle": "right_target",
+          "id": "edge_8_1780569665043",
+          "type": "customEdge",
+          "data": {
+            "label": "out",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 650.9892282503249,
+                "y": 101.1048995213835
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "id": "edge_4_1782541610868",
+          "source": "node_19_1780561632860",
+          "sourceHandle": "Drain_source",
+          "target": "node_26_1780561997744",
+          "targetHandle": "left_target",
+          "type": "customEdge",
+          "data": {
+            "label": "out",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 720.6604715983073,
+                "y": 137.26195455420202
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "id": "edge_5_1782541614396",
+          "source": "node_22_1780561750891",
+          "sourceHandle": "Drain_source",
+          "target": "node_26_1780561997744",
+          "targetHandle": "left_target",
+          "type": "customEdge",
+          "data": {
+            "label": "out",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 559.7542622884114,
+                "y": 82.26115462668741
+              },
+              {
+                "x": 720.6604715983073,
+                "y": 82.26115462668741
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_3_1780569661180",
+          "sourceHandle": "T1_source",
+          "target": "node_19_1780561632860",
+          "targetHandle": "Gate_target",
+          "id": "edge_8_1782541830117",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_2",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 447.72464370500774,
+                "y": 120.73985266286857
+              },
+              {
+                "x": 447.72464370500774,
+                "y": 177.69632005100175
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_19_1780561632860",
+          "sourceHandle": "Gate_source",
+          "target": "node_6_1780560885669",
+          "targetHandle": "Drain_target",
+          "id": "edge_9_1782541834283",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_2",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 386.4209289550781,
+                "y": 178.1546484735938
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_6_1780560885669",
+          "sourceHandle": "Drain_source",
+          "target": "node_2_1780560818368",
+          "targetHandle": "Drain_target",
+          "id": "edge_10_1782541835899",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_2",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 386.4209289550781,
+                "y": 176.27314249674478
+              },
+              {
+                "x": 386.42092895507807,
+                "y": 176.27314249674478
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_1_1780560817791",
+          "sourceHandle": "Source_source",
+          "target": "node_2_1780560818368",
+          "targetHandle": "Source_target",
+          "id": "edge_5_1782561667652",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_3",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 264.420888264974,
+                "y": 77.89122517903647
+              },
+              {
+                "x": 386.42092895507807,
+                "y": 77.89122517903647
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "id": "edge_6_1782561669905",
+          "source": "node_13_1780561494060",
+          "sourceHandle": "Drain_source",
+          "target": "node_2_1782561669905",
+          "targetHandle": "left_target",
+          "type": "customEdge",
+          "data": {
+            "label": "wire_3",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 321.0875752766927,
+                "y": 61.9853252753772
+              },
+              {
+                "x": 326.4488788923013,
+                "y": 61.9853252753772
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_13_1780561494060",
+          "sourceHandle": "Gate_source",
+          "target": "node_22_1780561750891",
+          "targetHandle": "Gate_target",
+          "id": "edge_7_1782561688795",
+          "type": "customEdge",
+          "data": {
+            "label": "Vbias",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 248.00308227539062,
+                "y": 5.696299705949663
+              },
+              {
+                "x": 248.00308227539062,
+                "y": -70.97365128628503
+              },
+              {
+                "x": 486.66974894205725,
+                "y": -70.97365128628503
+              },
+              {
+                "x": 486.66974894205725,
+                "y": 23.02967372938715
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "id": "edge_8_1782561760169",
+          "source": "node_3_1782561758310",
+          "sourceHandle": "input_port",
+          "target": "node_4_1782561760169",
+          "targetHandle": "left_target",
+          "type": "customEdge",
+          "data": {
+            "label": "Vbias",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 211.85096263453084,
+                "y": -30.292230182161752
+              },
+              {
+                "x": 211.85096263453084,
+                "y": -43.01051767172996
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_3_1782561758310",
+          "sourceHandle": "input_port",
+          "target": "node_2_1780569343285",
+          "targetHandle": "ground_target",
+          "id": "edge_9_1782561761196",
+          "type": "customEdge",
+          "data": {
+            "label": "Vbias",
+            "wireWidth": 1,
+            "waypoints": []
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_13_1780561494060",
+          "sourceHandle": "Source_source",
+          "target": "node_23_1780561765315",
+          "targetHandle": "power_target",
+          "id": "edge_1_1782586126466",
+          "type": "customEdge",
+          "data": {
+            "label": "VDD",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 321.0875549316406,
+                "y": -80.83296697952701
+              },
+              {
+                "x": 559.9972229003906,
+                "y": -80.83296697952701
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_19_1780561632860",
+          "sourceHandle": "Source_source",
+          "target": "node_8_1780560945479",
+          "targetHandle": "ground_target",
+          "id": "edge_2_1782586142818",
+          "type": "customEdge",
+          "data": {
+            "label": "GND",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 559.7542622884114,
+                "y": 314.3451344703963
+              },
+              {
+                "x": 318.6639709472656,
+                "y": 314.3451344703963
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        },
+        {
+          "source": "node_27_1780562067266",
+          "sourceHandle": "T2_source",
+          "target": "node_8_1780560945479",
+          "targetHandle": "ground_target",
+          "id": "edge_3_1782586148919",
+          "type": "customEdge",
+          "data": {
+            "label": "GND",
+            "wireWidth": 1,
+            "waypoints": [
+              {
+                "x": 783.997304280599,
+                "y": 318.7802794041645
+              },
+              {
+                "x": 318.6639709472656,
+                "y": 318.7802794041645
+              }
+            ]
+          },
+          "style": {
+            "stroke": "#000000",
+            "filter": "none"
+          },
+          "selected": false
+        }
+      ],
+      "viewport": {
+        "x": -42.49992123050117,
+        "y": 180.3771702761009,
+        "zoom": 1.0816554300643835
+      },
+      "notes": "",
+      "images": [],
+      "filteredNotes": "",
+      "fileName": "",
+      "moduleName": "CM_AC_06_Two_Stage_Miller_Compensated_OTA",
+      "description": "",
+      "waveforms": [],
+      "drawingPaths": [],
+      "clockWaves": [],
+      "hexagonLabels": {},
+      "clickedDiagonalHexagons": {}
+    }
+  ],
+  "analogConfig": {
+    "analysisTypeBySlide": {},
+    "analysisParamsBySlide": {
+      "0": {
+        "none": {},
+        "transient": {
+          "stopTime": "40n",
+          "stepTime": "0.01n",
+          "signals": "",
+          "plots": [
+            {
+              "key": "node:in+",
+              "label": "v(in+)",
+              "signal": "v(in+)",
+              "lines": [
+                "plot v(in+)"
+              ]
+            },
+            {
+              "key": "node:in-",
+              "label": "v(in-)",
+              "signal": "v(in-)",
+              "lines": [
+                "plot v(in-)"
+              ]
+            },
+            {
+              "key": "node:out",
+              "label": "v(out)",
+              "signal": "v(out)",
+              "lines": [
+                "plot v(out)"
+              ]
+            },
+            {
+              "key": "node:Vbias",
+              "label": "v(Vbias)",
+              "signal": "v(Vbias)",
+              "lines": [
+                "plot v(Vbias)"
+              ]
+            }
+          ]
+        },
+        "ac": {
+          "sweepType": "dec",
+          "startFreq": "1",
+          "stopFreq": "10G",
+          "steps": "100",
+          "signals": "plot vdb(vref)"
+        },
+        "dc": {
+          "sweepSource": "",
+          "startValue": "0",
+          "stopValue": "1.8",
+          "stepSize": "0.01",
+          "signals": ""
+        }
+      }
+    }
+  }
+}
