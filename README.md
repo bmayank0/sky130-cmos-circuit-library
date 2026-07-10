@@ -42,7 +42,7 @@ This library was built as part of a hands-on VLSI/analog design study — progre
 | [CM-AC-08](circuits/CM-AC-08-instrumentation-amp/)       | Instrumentation Amplifier                     | System   | Advanced     | AC       |
 | [CM-Tran-10](circuits/CM-Tran-10-sense-amplifier/)       | Sense Amplifier — Regenerative Latch          | System   | Advanced     | Tran     |
 | [CM-AC-09](circuits/CM-AC-09-pll-vco-divider/)           | PLL VCO + Divider Block                       | System   | Advanced     | AC+Tran  |
-| [CM-AC-10](circuits/CM-AC-10-ADC-Front-End/)             | ADC Front-End (Filter + S/H + Comparator)     | System   | Advanced     | AC+Tran  |
+| [CM-AC-10](circuits/CM-AC-10-adc-front-end/)             | ADC Front-End (Filter + S/H + Comparator)     | System   | Advanced     | AC+Tran  |
 
 ---
 
